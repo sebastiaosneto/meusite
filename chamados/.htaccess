@@ -1,0 +1,25 @@
+# Habilitar rewrite engine
+RewriteEngine On
+
+# Proteger arquivos sensíveis
+<FilesMatch "^(config|database\.sql|composer\.(json|lock))$">
+    Require all denied
+</FilesMatch>
+
+# Bloquear scripts de diagnostico/manutencao em ambiente web
+<FilesMatch "^(debug_login|corrigir_admin|teste|verificar|gerar_senha_admin|testar_phpmailer|gerar_hash)\.php$">
+    Require local
+</FilesMatch>
+
+# Desabilitar listagem de diretórios
+Options -Indexes
+
+# Cabeçalhos de segurança
+<IfModule mod_headers.c>
+    Header set X-Content-Type-Options "nosniff"
+    Header set X-Frame-Options "SAMEORIGIN"
+    Header set X-XSS-Protection "1; mode=block"
+</IfModule>
+
+# Página de erro personalizada
+ErrorDocument 404 /chamados/404.php

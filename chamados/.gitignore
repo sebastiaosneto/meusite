@@ -1,0 +1,28 @@
+# Dependências
+/vendor/
+composer.lock
+
+# Uploads
+/uploads/*
+!/uploads/.gitkeep
+
+# Configurações locais
+config/local.php
+
+# Logs
+*.log
+
+# Arquivos temporários
+*.tmp
+*.cache
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Sistema
+.DS_Store
+Thumbs.db
+

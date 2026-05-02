@@ -1,0 +1,66 @@
+Vamos desenvolver um sistema de chamados para T.I.
+
+Adminitrador 
+
+1 - Tela de login
+2 - Dashboard com graficos e cards, apresentando quantidade de chamados por mês, chamados abertos e finalizados de cada empresa.
+3 - Menu com opções:
+4 - Cadastrar Tecnicos
+5 - Cadastrar Tipos de Atendimentos     
+6 - Cadastrar Empresa - (Nome da Empresa, Contato, E-mail, Endereço, usuario e senha)
+7 - Cadastrar Funcionarios que iram abrir o chamado (Nome, Contato, E-mail, Vincular a Empresa, usuario e senha)
+8 - Abrir chamados - (Selecionar Empresa, Qual funcionario solicitou o atendimento, Tipo de Atendimento, Status, Prioridade, Descrição e Anexo.) 
+9 - Consultar chamados
+10 - Alterar dados - (Nome, E-mail, Contato e Senha)
+
+Obs.: O Status sempre deixar como pendente na sua abertura.
+
+
+Usuarios tecnico
+
+1 - Tela de Login
+2 - Dashboard com graficos e cards, apresentando quantidade de chamados por mês, chamados abertos e finalizados de cada empresa.
+3 - Nos chamados em aberto, o tecnico poder atender, e assim mudar os status. Ao finalizar o atendimento, abrir um novo campo com descrição do que foi realizado para solução do problema. 
+4 - Menu com opção: 
+5 - Abrir chamados - (Selecionar Empresa, Qual funcionario solicitou o atendimento, Tipo de Atendimento, Status, Prioridade, Descrição e Anexo.) 
+6 - Consultar chamados abertos, finalizado e reabertos. 
+7 - Alterar dados - (Nome, E-mail, Contato e Senha)
+
+Obs.: O Status sempre deixar como pendente na sua abertura.
+
+Usuarios comum - (empresa)
+
+1 - Tela de Login
+2 - Dashboard com graficos e cards, apresentando quantidade de chamados por mês, chamados abertos e finalizados.
+3 - Menu com opção: 
+4 - Abrir chamados - (Tipo de Atendimento, Status, Prioridade, Descrição e Anexo.) 
+5 - Consultar chamados 
+6 - Alterar dados - (Nome, E-mail, Contato e Senha)
+7 - Ter a opção de reabrir um chamado, e insterajir para ter um historico do atendimento.
+8 - Poder editar todos os chamados da sua empresa.
+
+Usuarios comum - (funcionario)
+
+1 - Tela de Login
+2 - Dashboard com graficos e cards, apresentando quantidade de chamados por mês, chamados abertos e finalizados.
+3 - Menu com opção: 
+4 - Abrir chamados - (Tipo de Atendimento, Status, Prioridade, Descrição e Anexo.) 
+5 - Consultar chamados 
+6 - Alterar dados - (Nome, E-mail, Contato e Senha)
+7 - Ter a opção de reabrir um chamado, e insterajir para ter um historico do atendimento.
+
+Obs.: O Status sempre deixar como pendente na sua abertura.  
+
+Mais detalhes do sistema.
+
+Utilize melhor programação para este sistema, pois este ficara em uma hospedagem com Bancos de Dados - PHP My Admin. Deixe responsivo, com as mesmas cores deste site https://sasntecnologia.com.br/.
+
+Preciso do serviço de notificações, enviar e-mail para o usuario comum e para o tecnico na abertura do chamado e na finalização.
+
+Cada funcionario de sua respectiva empresa o qual esta vinculado, poderá ver os demais chamados aberto e finalizados, porem não poderá alteralos, somente o seus.
+
+Obs.: Caso você analise que pode melhorar o sistema, pode fazer as alterações necessárias.
+
+Deixe o sistema seguro.
+
+Ja deixo a pasta images com a logo e o favico para inserir no sistema. Deixe bem organizado o sistema.
